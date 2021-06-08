@@ -1,0 +1,216 @@
+
+.header{
+    background-color: rgb(0, 0, 0);
+}
+.logo img{
+    width: auto;
+    height: 100px;
+    margin-top: 2px;
+    margin-left: -109px;}
+
+.menu{text-align: right;
+    margin-right: -27px;
+   position: sticky;
+}
+.menu ul{
+    margin-bottom: 0;
+    margin-right: -51px;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: -5px;
+
+}
+
+.menu ul li a{
+    display: block;
+    color: #fff;
+    font-size: 21px;
+    text-decoration: none;
+    /* margin-left: 25px; */
+    line-height: 5;
+    /* margin-top: 10px; */
+    font-family: initial;
+    /* border-right: 1px solid #ddd; */
+    padding: 0px 17px;
+    margin-right: 12px;
+    transition: .4s;
+}
+.menu ul li a:hover{
+  color: rgb(239, 243, 10);
+  transform: scale(1.07,1.1);
+}
+
+/* Banner */
+.fullbanner{
+    background: url(./img1/AddText_05-18-12.09.11.jpg);
+}
+.banner {
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1544px;
+    background-size: cover;
+    text-align: center;
+    margin-left: -221px;}
+.banner h2{
+    color: rgb(255, 255, 255);
+ 
+    margin: auto;
+    padding-top: 100px;
+    padding-left: 50px;
+    font-family: 'Pattaya', sans-serif;
+    letter-spacing: 2px;
+    font-size: 50px;
+    transition: .6s;
+    display: inline-block;
+}
+
+.banner h2:hover{
+color: yellow;
+transform: scale(1.07,1.1);
+cursor: pointer;
+}
+
+.banner h3{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    padding-top: 11px;
+    padding-left: 50px;
+    font-family: 'Playball', cursive;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+  
+/* About */
+    .about{
+        background-color: #ecf0f1;
+    }
+    .about h3{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+    }
+    .about h4{  font-family: initial;
+        font-size: 19px;
+    }
+    .about h2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 800;
+    }
+
+    /* Content */
+    .content{
+        background-color: #b2beb5;
+    }
+    .cd {
+        padding: 23px 0}
+        .photo{
+            padding-top: 15px;
+        }
+    .photo img{
+        width: auto;
+        height: 201px;
+        margin-top: 10px;
+}
+.photo p{
+    font-size: 13px;
+   padding-top: 10px;
+   padding-bottom: 30px;
+}
+.photo h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.photo h5{
+    font-size: 14px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Social photo */
+.part1{
+    background-color: rgb(39, 36, 36);
+}
+.part1 h3{
+
+    color: #fff;
+    text-align: center;
+    padding: 23px 208px;
+    font-size: 19px;
+    margin-bottom: 0;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   letter-spacing: 1px;
+   word-spacing: 3px;
+}
+.part3{
+    background-color: rgb(39, 36, 36);
+}
+
+.link{
+    margin-top: 11px;
+    margin-bottom: 12px;
+    padding: 14px 0;
+    text-align: center;
+}
+
+
+.link a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   letter-spacing: 1px;
+   word-spacing: 3px;
+   border: 1px solid #ddd;
+   padding: 11px 24px;
+   transition: .4s;
+}
+.link a:hover{
+    color: yellow;
+
+}
+.part2{background: url(./img1/FB_IMG_1622388426717.jpg);
+    height: 400px;
+    width: auto;
+background-size: cover;}
+.post{
+    text-align: center;
+    margin-top: 179px;
+   
+}
+
+.post h3{
+    color: rgb(3, 3, 3);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   background-color: #ddd;
+   display: inline-block;
+   padding: 8px 15px;
+   border-radius:5px ;
+   transition: .5s;
+}
+.post h3:hover{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    transform: scale(1.07,1.1);
+    cursor: pointer;
+}
+
+/* Footer */
+.footer{
+    background-color:rgb(97, 37, 146);
+    padding: 8px 0;
+    font-size: 12px;
+}
+.footer span{
+    color: aliceblue;
+}
+
+.icons span{
+    background-color: black;
+    color: #fff;
+    font-size: 14px;
+    padding: 7px;
+    margin-left: 4px;
+    height: 7px;
+    width: 7px;
+}
+.icons span:hover{
+    background-color: #fff;
+    color: black;
+}
